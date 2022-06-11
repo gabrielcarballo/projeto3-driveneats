@@ -1,0 +1,30 @@
+
+
+body{
+    width: 428;
+
+}
+
+
+
+
+
+.uppermenu{
+    background-color: #CF2B2B;
+    
+}
+
+.logo-and-description :nth-child(1){
+    font-family: 'righteous';
+    text-decoration-color: #FFFFFF;
+    margin: 0 0 0 21px;
+    font-weight: 400;
+    font-size: 44px;
+}
+
+.logo-and-description :nth-child(2){
+    text-decoration-color: #FFFFFF;
+    margin: 8px 0 0 21px;
+    font-weight: 400;
+    font-size: 18px;
+}
