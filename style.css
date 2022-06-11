@@ -4,12 +4,14 @@
 body{
     width: 428px;
     background-color: #E5E5E5;
+    box-sizing: border-box;
 
 }
 
 .uppermenu{
     background-color: #CF2B2B;
     padding-bottom: 8px;
+    position: sticky;
     
 }
 
@@ -28,4 +30,68 @@ body{
     margin: 8px 0 0 21px;
     font-weight: 400;
     font-size: 18px;
+}
+
+.main-title{
+    margin: 31px 0 0 21px;
+    font-family: 'Righteous';
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.meal-container{
+    width: 100%;
+    display: flex;
+    margin: 8px 0 0 21px;
+    overflow-x: hidden;
+    justify-content: space-between;
+}
+
+.individual-meal-box{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 180px;
+    height: 216px;
+    margin-top: 8px;
+    justify-content: space-between;
+    border-radius: 9px;
+    border-right: 20px;
+    
+    
+}
+
+.individual-meal-box img{
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+    margin-top: 16px;
+    margin-left: 18px;
+    
+}
+
+.food-name{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    color: #333333;
+}
+
+.food-description{
+    color: #A6A6A6;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 15px;
+
+
+}
+
+.price{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    
 }
