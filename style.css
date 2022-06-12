@@ -11,7 +11,8 @@ body{
 .uppermenu{
     background-color: #CF2B2B;
     padding-bottom: 8px;
-    position: sticky;
+    position: sticky top;
+    
     
 }
 
@@ -43,20 +44,34 @@ body{
     width: 100%;
     display: flex;
     margin: 8px 0 0 21px;
-    overflow-x: hidden;
+    overflow-x: scroll;
     justify-content: space-between;
+    align-items: center;
 }
 
-.individual-meal-box{
+
+.beverage-container{
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    margin: 8px 0 0 21px;
+    overflow-x: scroll;
+}
+
+.dessert-container{
+    width: 100%;
+    display: flex;
+    margin: 8px 0 0 21px;
+    overflow-x: scroll;
+}
+
+
+.individual-meal-box{
     background-color: #FFFFFF;
     width: 180px;
-    height: 216px;
+    height: 195px;
     margin-top: 8px;
-    justify-content: space-between;
     border-radius: 9px;
-    border-right: 20px;
+    margin-right: 20px;
     
     
 }
@@ -65,8 +80,7 @@ body{
     width: 144px;
     height: 87px;
     border-radius: 4px;
-    margin-top: 16px;
-    margin-left: 18px;
+    margin: 16px 20px 0 18px;
     
 }
 
@@ -75,6 +89,8 @@ body{
     font-weight: 700;
     font-size: 16px;
     color: #333333;
+    margin: 10px 0 10px 20px;
+    
 }
 
 .food-description{
@@ -82,7 +98,8 @@ body{
     font-family: 'Roboto';
     font-weight: 300;
     font-size: 15px;
-
+    margin: 10px 0 10px 20px;
+    
 
 }
 
@@ -93,5 +110,24 @@ body{
     line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
+    margin: 10px 0 0 20px;
+}
+
+.closeorder-container{
+    height: 92px;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.waiting-choose{
+    background-color:#cbcbcb;
+    position: absolute;
+    z-index: 1;
+}
+
+.send-to-cart{
+    background-color:#cbcbcb;
+    position: absolute;
+    
     
 }
