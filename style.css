@@ -65,18 +65,50 @@ body{
 }
 
 
-.individual-meal-box{
+.individual-meal-box {
     background-color: #FFFFFF;
     width: 180px;
     height: 195px;
-    margin-top: 8px;
+    margin: 8px 10px 10px 6px;
     border-radius: 9px;
-    margin-right: 20px;
-    
     
 }
 
-.individual-meal-box img{
+.individual-beverage-box{
+    background-color: #FFFFFF;
+    width: 180px;
+    height: 195px;
+    margin: 8px 10px 10px 6px;
+    border-radius: 9px;
+    
+}
+
+.individual-dessert-box{
+    background-color: #FFFFFF;
+    width: 180px;
+    height: 195px;
+    margin: 8px 10px 10px 6px;
+    border-radius: 9px;
+    
+}
+
+.individual-meal-box img {
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+    margin: 16px 20px 0 18px;
+    
+}
+
+.individual-beverage-box img {
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+    margin: 16px 20px 0 18px;
+    
+}
+
+.individual-dessert-box img {
     width: 144px;
     height: 87px;
     border-radius: 4px;
@@ -115,19 +147,57 @@ body{
 
 .closeorder-container{
     height: 92px;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
     position: relative;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .waiting-choose{
     background-color:#cbcbcb;
+    display: flex;
     position: absolute;
-    z-index: 1;
+    height: 61px;
+    width: 260px;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 23px;
+    letter-spacing: 0.018em;
+    text-align: center;
+    color: #FFFFFF;
+    
+
+    
 }
 
 .send-to-cart{
-    background-color:#cbcbcb;
+    background-color:#32B72F;
     position: absolute;
-    
-    
+    align-items: center;
+    justify-content: center;
+    height: 61px;
+    width: 260px;
+    display: flex; 
+    border-radius: 40px;  
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 23px;
+    letter-spacing: 0.018em;
+    color: #FFFFFF;
+}
+
+.hidden{
+    display: none;
+}
+
+.selected{
+    -webkit-box-shadow: 0px 0px 0px 5px #32b72f; 
+box-shadow: 0px 0px 0px 5px #32b72f;
 }
